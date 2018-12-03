@@ -94,5 +94,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 premium += 300;
             }
         }
+        textViewPremium.setText(getString(R.string.premium) + " = " +premium);
     }
 }
